@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <section class="header-sec">
+        <h1>Student Registration System</h1>
+        <h4 style="padding-top: 10px;">Register New Student</h4>
+        <h4>Update Student Information</h4>
+        <h4>Delete Student</h4>
+        
+        </section>
+    </header>
+    <main id="main">
+        <section id="main-sec1">
+            <h2>Student Registration Form</h2>
+            <form id="student-form">
+                <label for="name">Student Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="id">Student ID:</label><br>
+                <input type="text" id="id" name="id"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+
+                <label for="contact">Contact:</label><br>
+                <input type="tel" id="contact" name="contact"><br><br>
+
+                <button type="submit" id="register">Register</button>
+            </form>
+        </section>
+        <section id="main-sec2">
+            <h2>Student Information</h2>
+            <section id="studentContainer" class="student-container"></section>
+        
+        </section>
+        
+    </main>
+</body>
+</html>
